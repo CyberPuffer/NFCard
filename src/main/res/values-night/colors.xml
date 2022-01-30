@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tag_bg">#FF000000</color>
+    <color name="tag_tip">#FFDFDFDF</color>
+    <color name="tag_splitter">#FFC5C5C5</color>
+    <color name="tag_action">#FF9F9F9F</color>
+    <color name="tag_h1">#FFEFEFEF</color>
+    <color name="tag_h2">#FF008080</color>
+    <color name="tag_h3">#FFAFAFAF</color>
+    <color name="tag_lab">#FFDFDFDF</color>
+    <color name="tag_text">#FFCFCFCF</color>
+    <color name="background">#FF212121</color>
+    <color name="logo_text">#FF5F5F5F</color>
+    <color name="logo_shadow">#FFB0B0B0</color>
+</resources>

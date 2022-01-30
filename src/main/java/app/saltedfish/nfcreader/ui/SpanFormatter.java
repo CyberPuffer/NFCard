@@ -233,7 +233,7 @@ public final class SpanFormatter implements Html.TagHandler {
 			} else if (SPEC.TAG_PARAG.equals(tag)) {
 				markParagSpan(output, len, R.dimen.tag_parag);
 			} else if (SPEC.TAG_SP.equals(tag)) {
-				markSpliterSpan(output, len, R.color.tag_spliter, R.dimen.tag_spliter);
+				markSplitterSpan(output, len, R.color.tag_splitter, R.dimen.tag_splitter);
 			}
 		} else {
 			if (SPEC.TAG_TEXT.equals(tag)) {
@@ -257,7 +257,7 @@ public final class SpanFormatter implements Html.TagHandler {
 		}
 	}
 
-	private static void markSpliterSpan(Editable out, int pos, int colorId, int heightId) {
+	private static void markSplitterSpan(Editable out, int pos, int colorId, int heightId) {
 		DisplayMetrics dm = ThisApplication.getDisplayMetrics();
 		int color = ThisApplication.getColorResource(colorId);
 		int height = ThisApplication.getDimensionResourcePixelSize(heightId);

@@ -72,9 +72,9 @@
 	<br />NFCard使用手机NFC读取非接触式IC卡中的信息。<br />
 	<br />支持ISO7816-4、Felica智能卡，用来读取电子钱包（主要是公交卡）、电子现金（如闪付卡）账户中没有设置读取限制的有效期、脱机余额、交易记录。<br />
 	<br />已经确认可以读出的卡片有：深圳通（新版）、上海公交卡、香港八达通、北京市政一卡通（新版）、长安通、武汉城市一卡通、银联闪付卡、交通联合卡（含电子现金）、城市一卡通互联互通卡。<br />
-	<br />本程序免费、开源。允许自由传播和修改，具体的规则请遵照自由软件基金会的通用公共授权第三版（GNU GPLv3），参见 <a href="http://www.gnu.org/licenses/gpl.txt">www.gnu.org/licenses/gpl.txt</a>。<br />
-    <br />最新的程序和源代码可以从<a href="https://github.com/SaltedFishApp/NFCard">Github</a>获取。<br />
-	<br />原版程序和源代码可以从<a href="https://github.com/sinpolib/nfcard/">github.com/sinpolib/nfcard</a>获取。<br />
+	<br />本程序免费、开源。允许自由传播和修改，具体的规则请遵照自由软件基金会的通用公共授权第三版（GNU GPLv3），参见 <a href="http://www.gnu.org/licenses/gpl.txt">GPLv3 license</a>。<br />
+    <br />最新的程序和源代码可以从<a href="https://github.com/SaltedFishApp/NFCard">Github: SaltedFishApp/NFCard</a>获取。<br />
+	<br />原版程序和源代码可以从<a href="https://github.com/sinpolib/nfcard/">Github: sinpolib/nfcard</a>获取。<br />
 	<br />感谢原作者：<a href="mailto:sinpowei@gmail.com">Sinpo Lib</a>, 2015. 的辛勤付出！
 	</div>
 	]]>

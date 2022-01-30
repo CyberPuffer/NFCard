@@ -73,9 +73,9 @@
     <br />NFCard use NFC function on the phone to read contactless IC card.<br />
 	<br />APP support ISO7816-4, Felica compliant e-purse/e-cash, it can read account validity, offline balance and transaction logs from these cards if no read restriction applied.<br />
 	<br />So far we\'ve confirmed the following cards can be read: Shenzhen Tong (new version) of Shenzhen, Shanghai Card, Octopus Card of Hongkong, Beijing Municipal Card (new version), Changan Card of Shaanxi,Xi\'an, Wuhan City Smart Card, Quickpass (China, e-cash), T-Union (China, e-purse & e-cash), City Union (China).<br />
-	<br />This is a free and opensource software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, Either version 3 of the license, or (at your option) any later version. See <a href="http://www.gnu.org/licenses/gpl.txt">www.gnu.org/licenses/gpl.txt</a>.<br />
-    <br />The newest version and source code can be found at <a href="https://github.com/SaltedFishApp/NFCard">Github</a><br />
-	<br />Original version and source code can be found at <a href="https://github.com/sinpolib/nfcard/">github.com/sinpolib/nfcard</a><br />
+	<br />This is a free and opensource software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, Either version 3 of the license, or (at your option) any later version. See <a href="http://www.gnu.org/licenses/gpl.txt">GPLv3 license</a>.<br />
+    <br />The newest version and source code can be found at <a href="https://github.com/SaltedFishApp/NFCard">Github: SaltedFishApp/NFCard</a><br />
+	<br />Original version and source code can be found at <a href="https://github.com/sinpolib/nfcard/">Github: sinpolib/nfcard</a><br />
 	<br />Thank <a href="mailto:sinpowei@gmail.com">Sinpo Lib</a>, 2015. for the hard work developing this app.</div>
 	]]>
     </string>

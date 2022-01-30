@@ -1,11 +1,16 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black" />
 
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@color/tag_bg</item>
+        <item name="android:windowBackground">@color/background</item>
     </style>
+
+    <style name="logo">
+        <item name="android:textColor">@color/logo_text</item>
+        <item name="android:shadowColor">@color/logo_shadow</item>
+    </style>>
 
     <style name="toolButton">
         <item name="android:layout_width">wrap_content</item>
@@ -32,6 +37,7 @@
         <item name="android:textStyle">normal</item>
         <item name="android:scrollHorizontally">false</item>
         <item name="android:textColor">@color/tag_text</item>
+        <item name="android:textColorLink">@color/tag_text</item>
         <item name="android:singleLine">false</item>
         <item name="android:clickable">false</item>
         <item name="android:longClickable">false</item>

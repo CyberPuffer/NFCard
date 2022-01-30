@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="app.saltedfish.nfcreader"
-    android:versionCode="18"
-    android:versionName="2.3.2"
     android:installLocation="auto" >
 
     <uses-permission android:name="android.permission.NFC" />
@@ -20,7 +18,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        tools:targetApi="m">
+        tools:targetApi="30">
         <meta-data
             android:name="android.nfc.disable_beam_default"
             android:value="true" />
@@ -29,20 +27,17 @@
             android:name="app.saltedfish.nfcreader.MainActivity"
             android:alwaysRetainTaskState="false"
             android:configChanges="orientation|screenSize"
-            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustUnspecified|stateAlwaysHidden"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
                 <action android:name="android.nfc.action.TAG_DISCOVERED" />
             </intent-filter>
-
             <meta-data
                 android:name="android.nfc.action.TECH_DISCOVERED"
                 android:resource="@xml/nfc_tech_filter" />

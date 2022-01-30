@@ -17,36 +17,20 @@ allprojects {
     }
 }
 
-
-
 android {
     compileSdkVersion 31
     buildToolsVersion "31.0.0"
-
     defaultConfig {
         applicationId "app.saltedfish.nfcreader"
+        versionCode 19
+        versionName "2.5.0"
         minSdkVersion 10
         targetSdkVersion 31
     }
-
     buildTypes {
         release {
             minifyEnabled true
+            shrinkResources true
         }
     }
-
-
-    signingConfigs {
-        config {
-            enableV1Signing true
-            enableV2Signing true
-            enableV3Signing true
-            enableV4Signing true
-        }
-    }
-    lint {
-        abortOnError false
-        checkReleaseBuilds false
-    }
-
 }
