@@ -17,6 +17,7 @@ package app.saltedfish.nfcreader.ui;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.text.Html;
 
 import app.saltedfish.nfcreader.R;
 import app.saltedfish.nfcreader.ThisApplication;
@@ -26,12 +27,14 @@ public final class AboutPage {
 
 	public static CharSequence getContent(Activity activity) {
 
-		String tip = ThisApplication
-				.getStringResource(R.string.info_main_about);
-		tip = tip.replace("<app />", ThisApplication.name());
-		tip = tip.replace("<version />", ThisApplication.version());
-
-		return new SpanFormatter(null).toSpanned(tip);
+		String tip = ThisApplication.getStringResource(R.string.info_main_about);
+		tip = tip.replace("%app%", ThisApplication.name());
+		tip = tip.replace("%version%", ThisApplication.version());
+		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+			return Html.fromHtml(tip, Html.FROM_HTML_MODE_LEGACY);
+		} else {
+			return Html.fromHtml(tip);
+		}
 	}
 
 	public static boolean isSendByMe(Intent intent) {

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@color/primary40</color>
+    <color name="onPrimary">@color/primary100</color>
+    <color name="primaryContainer">@color/primary90</color>
+    <color name="onPrimaryContainer">@color/primary10</color>
+    <color name="primaryBackground">@color/primary99</color>
+    <color name="inversePrimary">@color/primary80</color>
+    <color name="secondary">@color/secondary40</color>
+    <color name="onSecondary">@color/secondary100</color>
+    <color name="secondaryContainer">@color/secondary90</color>
+    <color name="onSecondaryContainer">@color/secondary10</color>
+    <color name="tertiary">@color/tertiary40</color>
+    <color name="onTertiary">@color/tertiary100</color>
+    <color name="tertiaryContainer">@color/tertiary90</color>
+    <color name="onTertiaryContainer">@color/tertiary10</color>
+    <color name="background">@color/neutral99</color>
+    <color name="onBackground">@color/neutral10</color>
+    <color name="surface">@color/neutral99</color>
+    <color name="onSurface">@color/neutral10</color>
+    <color name="surfaceVariant">@color/neutralVariant90</color>
+    <color name="onSurfaceVariant">@color/neutralVariant30</color>
+    <color name="inverseSurface">@color/neutral20</color>
+    <color name="inverseOnSurface">@color/neutral95</color>
+    <color name="outline">@color/neutralVariant50</color>
+</resources>

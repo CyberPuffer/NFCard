@@ -2,30 +2,30 @@ apply plugin: 'com.android.application'
 
 buildscript {
     repositories {
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
-        maven { url 'https://maven.aliyun.com/repository/google'}
+        google()
+        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.0'
+        classpath 'com.android.tools.build:gradle:7.2.0-rc01'
     }
 }
 
 allprojects {
     repositories {
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
-        maven { url 'https://maven.aliyun.com/repository/google'}
+        google()
+        jcenter()
     }
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    compileSdkVersion 32
+    buildToolsVersion "32.0.0"
     defaultConfig {
         applicationId "app.saltedfish.nfcreader"
-        versionCode 19
-        versionName "2.5.0"
+        versionCode 20
+        versionName "2.5.1"
         minSdkVersion 10
-        targetSdkVersion 31
+        targetSdkVersion 32
     }
     buildTypes {
         release {

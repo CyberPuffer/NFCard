@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="tag_bg">#FF000000</color>
-	<color name="tag_tip">#FF505050</color>
-	<color name="tag_splitter">#FFC5C5C5</color>
-	<color name="tag_action">#FF888888</color>
-	<color name="tag_h1">#FF505050</color>
-	<color name="tag_h2">#FF008080</color>
-	<color name="tag_h3">#FF505050</color>
-	<color name="tag_lab">#FF3F3F3F</color>
-	<color name="tag_text">#FF111111</color>
-	<color name="background">#FFFFFBF0</color>
-	<color name="logo_text">#FFE2E2D0</color>
-	<color name="logo_shadow">#FFB0B0B0</color>
+	<color name="background">#FFFBF0</color>
+	<color name="onBackground">#1B1B1B</color>
+	<color name="primaryBackground">#FFFBF0</color>
+	<color name="surface">#FBFBFB</color>
+	<color name="onSurface">#1B1B1B</color>
+	<color name="surfaceVariant">#E2E2E2</color>
+	<color name="onSurfaceVariant">#464646</color>
+	<color name="inverseSurface">#303030</color>
+	<color name="inverseOnSurface">#F0F0F0</color>
+	<color name="outline">#757575</color>
+
+    <color name="tag_bg">#000000</color>
+	<color name="tag_tip">#505050</color>
+	<color name="tag_splitter">#C5C5C5</color>
+	<color name="tag_action">#888888</color>
+	<color name="tag_h1">#505050</color>
+	<color name="tag_h2">#008080</color>
+	<color name="tag_h3">#505050</color>
+	<color name="tag_lab">#3F3F3F</color>
+	<color name="tag_text">#111111</color>
 </resources>
 

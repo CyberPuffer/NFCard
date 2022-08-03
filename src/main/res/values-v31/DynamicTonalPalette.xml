@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- The neutral tonal range from the generated dynamic color palette. -->
+    <color name="neutral100">@android:color/system_neutral1_0</color>
+    <color name="neutral99">@android:color/system_neutral1_10</color>
+    <color name="neutral95">@android:color/system_neutral1_50</color>
+    <color name="neutral90">@android:color/system_neutral1_100</color>
+    <color name="neutral80">@android:color/system_neutral1_200</color>
+    <color name="neutral70">@android:color/system_neutral1_300</color>
+    <color name="neutral60">@android:color/system_neutral1_400</color>
+    <color name="neutral50">@android:color/system_neutral1_500</color>
+    <color name="neutral40">@android:color/system_neutral1_600</color>
+    <color name="neutral30">@android:color/system_neutral1_700</color>
+    <color name="neutral20">@android:color/system_neutral1_800</color>
+    <color name="neutral10">@android:color/system_neutral1_900</color>
+    <color name="neutral0">@android:color/system_neutral1_1000</color>
+
+<!-- The neutral variant tonal range, sometimes called "neutral 2",  from the generated dynamic color palette. -->
+    <color name="neutralVariant100">@android:color/system_neutral2_0</color>
+    <color name="neutralVariant99">@android:color/system_neutral2_10</color>
+    <color name="neutralVariant95">@android:color/system_neutral2_50</color>
+    <color name="neutralVariant90">@android:color/system_neutral2_100</color>
+    <color name="neutralVariant80">@android:color/system_neutral2_200</color>
+    <color name="neutralVariant70">@android:color/system_neutral2_300</color>
+    <color name="neutralVariant60">@android:color/system_neutral2_400</color>
+    <color name="neutralVariant50">@android:color/system_neutral2_500</color>
+    <color name="neutralVariant40">@android:color/system_neutral2_600</color>
+    <color name="neutralVariant30">@android:color/system_neutral2_700</color>
+    <color name="neutralVariant20">@android:color/system_neutral2_800</color>
+    <color name="neutralVariant10">@android:color/system_neutral2_900</color>
+    <color name="neutralVariant0">@android:color/system_neutral2_1000</color>
+
+<!-- The primary tonal range from the generated dynamic color palette. -->
+    <color name="primary100">@android:color/system_accent1_0</color>
+    <color name="primary99">@android:color/system_accent1_10</color>
+    <color name="primary95">@android:color/system_accent1_50</color>
+    <color name="primary90">@android:color/system_accent1_100</color>
+    <color name="primary80">@android:color/system_accent1_200</color>
+    <color name="primary70">@android:color/system_accent1_300</color>
+    <color name="primary60">@android:color/system_accent1_400</color>
+    <color name="primary50">@android:color/system_accent1_500</color>
+    <color name="primary40">@android:color/system_accent1_600</color>
+    <color name="primary30">@android:color/system_accent1_700</color>
+    <color name="primary20">@android:color/system_accent1_800</color>
+    <color name="primary10">@android:color/system_accent1_900</color>
+    <color name="primary0">@android:color/system_accent1_1000</color>
+
+<!-- The secondary tonal range from the generated dynamic color palette. -->
+    <color name="secondary100">@android:color/system_accent2_0</color>
+    <color name="secondary99">@android:color/system_accent2_10</color>
+    <color name="secondary95">@android:color/system_accent2_50</color>
+    <color name="secondary90">@android:color/system_accent2_100</color>
+    <color name="secondary80">@android:color/system_accent2_200</color>
+    <color name="secondary70">@android:color/system_accent2_300</color>
+    <color name="secondary60">@android:color/system_accent2_400</color>
+    <color name="secondary50">@android:color/system_accent2_500</color>
+    <color name="secondary40">@android:color/system_accent2_600</color>
+    <color name="secondary30">@android:color/system_accent2_700</color>
+    <color name="secondary20">@android:color/system_accent2_800</color>
+    <color name="secondary10">@android:color/system_accent2_900</color>
+    <color name="secondary0">@android:color/system_accent2_1000</color>
+
+<!-- The tertiary tonal range from the generated dynamic color palette. -->
+    <color name="tertiary100">@android:color/system_accent3_0</color>
+    <color name="tertiary99">@android:color/system_accent3_10</color>
+    <color name="tertiary95">@android:color/system_accent3_50</color>
+    <color name="tertiary90">@android:color/system_accent3_100</color>
+    <color name="tertiary80">@android:color/system_accent3_200</color>
+    <color name="tertiary70">@android:color/system_accent3_300</color>
+    <color name="tertiary60">@android:color/system_accent3_400</color>
+    <color name="tertiary50">@android:color/system_accent3_500</color>
+    <color name="tertiary40">@android:color/system_accent3_600</color>
+    <color name="tertiary30">@android:color/system_accent3_700</color>
+    <color name="tertiary20">@android:color/system_accent3_800</color>
+    <color name="tertiary10">@android:color/system_accent3_900</color>
+    <color name="tertiary0">@android:color/system_accent3_1000</color>
+</resources>

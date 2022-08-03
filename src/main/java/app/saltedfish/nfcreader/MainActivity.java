@@ -25,12 +25,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
+import android.content.Context;
+import android.content.res.Resources;
 
 import app.saltedfish.nfcreader.nfc.NfcManager;
 import app.saltedfish.nfcreader.ui.AboutPage;
 import app.saltedfish.nfcreader.ui.MainPage;
 import app.saltedfish.nfcreader.ui.NfcPage;
 import app.saltedfish.nfcreader.ui.Toolbar;
+import app.saltedfish.nfcreader.support.TypefaceCompatImpl;
 
 public class MainActivity extends Activity {
 
@@ -190,9 +193,12 @@ public class MainActivity extends Activity {
 
 	private void initViews() {
 		board = (ViewSwitcher) findViewById(R.id.switcher);
-
-		Typeface tf = ThisApplication.getFontResource(R.string.font_oem1);
 		TextView tv = (TextView) findViewById(R.id.txtAppName);
+
+		final Context context = this.getApplicationContext();
+		final Resources resources = context.getResources();
+		final int id = resources.getIdentifier("oem1","font",this.getPackageName());
+		Typeface tf = TypefaceCompatImpl.createFromResourcesFontFile(context,resources,id);
 		tv.setTypeface(tf);
 
 		tv = getFrontPage();
