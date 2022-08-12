@@ -24,7 +24,6 @@ import java.io.File;
 
 /**
  * Implementation of the Typeface compat methods.
- * @hide
  */
 
 public class TypefaceCompatImpl {

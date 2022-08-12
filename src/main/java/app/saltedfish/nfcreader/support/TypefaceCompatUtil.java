@@ -29,7 +29,6 @@ import java.io.InputStream;
 
 /**
  * Utility methods for TypefaceCompat.
- * @hide
  */
 public class TypefaceCompatUtil {
     private static final String TAG = "TypefaceCompatUtil";

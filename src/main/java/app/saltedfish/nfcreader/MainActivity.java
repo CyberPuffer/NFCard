@@ -142,7 +142,7 @@ public class MainActivity extends Activity {
 
 		TextView ta = getBackPage();
 
-		resetTextArea(ta, SPEC.PAGE.ABOUT, Gravity.LEFT);
+		resetTextArea(ta, SPEC.PAGE.ABOUT, Gravity.START);
 		ta.setText(AboutPage.getContent(this));
 
 		board.showNext();
@@ -155,7 +155,7 @@ public class MainActivity extends Activity {
 
 		if (NfcPage.isNormalInfo(intent)) {
 			toolbar.show(R.id.btnCopy, R.id.btnShare, R.id.btnReset);
-			resetTextArea(ta, SPEC.PAGE.INFO, Gravity.LEFT);
+			resetTextArea(ta, SPEC.PAGE.INFO, Gravity.START);
 		} else {
 			toolbar.show(R.id.btnBack);
 			resetTextArea(ta, SPEC.PAGE.INFO, Gravity.CENTER);

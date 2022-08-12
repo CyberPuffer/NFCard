@@ -29,6 +29,7 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.IsoDep;
 import android.nfc.tech.NfcF;
+import android.os.Build;
 
 import app.saltedfish.nfcreader.nfc.reader.ReaderListener;
 import app.saltedfish.nfcreader.nfc.reader.ReaderManager;
@@ -57,9 +58,13 @@ public final class NfcManager {
 	public NfcManager(Activity activity) {
 		this.activity = activity;
 		nfcAdapter = NfcAdapter.getDefaultAdapter(activity);
+		int intent_flag = 0;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+			intent_flag = PendingIntent.FLAG_MUTABLE;
+		}
 		pendingIntent = PendingIntent.getActivity(activity, 0, new Intent(
 				activity, activity.getClass())
-				.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), PendingIntent.FLAG_MUTABLE);
+				.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), intent_flag);
 
 		setupBeam(true);
 
@@ -115,7 +120,6 @@ public final class NfcManager {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	private void setupOldFashionBeam(boolean enable) {
 
 		final int api = android.os.Build.VERSION.SDK_INT;

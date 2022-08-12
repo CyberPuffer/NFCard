@@ -116,7 +116,7 @@ public final class SpanFormatter implements Html.TagHandler {
 				Typeface tf = ds.getTypeface();
 
 				if (tf != null) {
-					int style = tf.getStyle() | Typeface.BOLD;
+					int style = tf.getStyle();
 					tf = Typeface.create(tf, style);
 					ds.setTypeface(tf);
 

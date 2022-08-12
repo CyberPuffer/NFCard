@@ -15,8 +15,6 @@ Additional permission under GNU GPL version 3 section 7 */
 
 package app.saltedfish.nfcreader.nfc.reader.pboc;
 
-import android.util.Log;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.regex.Matcher;

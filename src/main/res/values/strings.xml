@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">NFCard</string>
-    <string name="font_oem1" translatable="false">fonts/oem1.ttf</string>
     <string name="spec_prop_id">Application</string>
     <string name="spec_prop_serial">Serial:\u0020</string>
     <string name="spec_prop_param">Parameter:\u0020</string>
